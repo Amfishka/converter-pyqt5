@@ -10,6 +10,7 @@ class CurrencyConv(QtWidgets.QMainWindow):
         self.design = Ui_MainWindow()
         self.design.setupUi(self)
         self.init_UI()
+        print("Я изменил тут")
 
     def init_UI(self):
         self.setWindowTitle("Конвертер Валют")
